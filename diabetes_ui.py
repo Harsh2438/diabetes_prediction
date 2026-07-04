@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 
 # Load dataset
-df = pd.read_csv('diabetes_python.csv')
+df = pd.read_csv('diabetes_python.xls')
 
 # Preprocessing
 X = df.drop('Outcome', axis=1)
